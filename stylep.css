@@ -250,4 +250,36 @@ footer{
 #no{
   padding-top: 4px;
 }
+
+/* ==== RESPONSIVE DENGAN MEDIA QUERIES =====*/
+@media screen and (max-width: 3000px){
+  /* CSS styles */
+  }
+  @media screen and (max-width: 1300px){
+  /* CSS styles */
+  }
+  @media screen and (max-width: 1024px){
+  /* CSS styles */
+  }
+  @media screen and (max-width: 992px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:880px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:768px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:600px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:480px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:320px){
+  /* CSS styles */
+  }
+  @media screen and (max-width:240px){
+  /* CSS styles */
+  }
 /*----------------------------------------------------------------------------*/
