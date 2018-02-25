@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--pengaturan body keseluruhan-----------------------------------------------*/
+body{
+  background-image: url("img/bg4.jpg");
+}
+/*----------------------------------------------------------------------------*/
+/*--pengaturan header keseluruhan---------------------------------------------*/
+header{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  font-family: Lato;
+  position: fixed;
+}
+
+#me:link, #me:visited{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#me:hover{
+  color: grey;
+  transition: 0.5s ease;
+}
+
+h2{
+  float: left;
+  line-height: 46px;
+}
+
+nav ul li{
+  margin-right: 5px;
+  line-height: 46px;
+  float: right;
+  display: inline;
+}
+
+#home:link, #home:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#home:hover{
+  color: grey;
+  border-radius: 30%;
+  transition: 0.5s ease;
+}
+
+#blog:link, #blog:visited {
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#blog:hover{
+  background-color: grey;
+  border-radius: 30%;
+  transition: 0.5s ease;
+}
+
+.navigasi{
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30%;
+}
+/*----------------------------------------------------------------------------*/
+/*--pengaturan section keseluruhan--------------------------------------------*/
+section{
+  margin: auto;
+  width: 100%;
+  min-height: 590px;
+  padding: 10px;
+}
+h1{
+  line-height: 590px;
+  text-align: center;
+  font-size: 300px;
+}
+
+.data{
+  margin-top: 100px;
+  width: 100%;
+  min-height: 300px;
+  border: 2px dotted black;
+}
+
+.diri{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 99%;
+  height: 300px;
+  border: 10px solid black;
+  background-color: grey;
+}
+
+.title{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: Indie Flower;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#anug{
+  margin-top: 25px;
+  margin-right: 10px;
+  float: right;
+  width: 15%;
+  height: 230px;
+  border-radius: 30%;
+}
+
+#cerita{
+  word-wrap: normal;
+  width: 99%;
+  position: relative;
+  top: 100px;
+  right:90px;
+  text-align: justify;
+}
+
+#kesukaan{
+  margin-top: 70px;
+  text-align: center;
+}
+
+#futsal:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+#basket:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+#renang:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+#game:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+#musik:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+#programming:hover{
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+/*----------------------------------------------------------------------------*/
+/*--pengaturan articel keseluruhan--------------------------------------------*/
+article{
+  float: left;
+  margin: auto;
+  width: 100%;
+  min-height: 570px;
+  border: 2px solid blue;
+  background-color: grey  ;
+  opacity: 0.5;
+}
+/*----------------------------------------------------------------------------*/
+/*--pengaturan footer keseluruhan----/----------------------------------------*/
+footer{
+  position: absolute;
+  background-color: maroon;
+  width: 100%;
+  min-height: 90px;
+  border-top: 1px solid black;
+  font-family: Karma;
+  font-size: 12px;
+}
+
+#akun1{
+  float: right;
+  margin-top:  30px;
+}
+
+#akun2{
+  float: right;
+  margin-top:  30px;
+}
+
+#akun3{
+  float: right;
+  margin-top:  30px;
+}
+
+.akun:hover, .akun:link, .akun1:visited{
+  background-color: darkkhaki;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+.copyright{
+  padding-left: 7px;
+  line-height: 15px;
+}
+
+#cp1{
+  padding-top: 30px;
+}
+
+.cc{
+  float: left;
+  padding-top: 3px;
+}
+
+#no{
+  padding-top: 4px;
+}
+/*----------------------------------------------------------------------------*/
