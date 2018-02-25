@@ -154,39 +154,19 @@ h1{
   text-align: center;
 }
 
-#futsal:hover{
+#html{
+  margin-right: 50px;
+}
+
+#html:hover{
   background-color: green;
-  border-radius: 50%;
+  border-radius: 30%;
   transition: 0.5s ease;
 }
 
-#basket:hover{
+#css:hover{
   background-color: green;
-  border-radius: 50%;
-  transition: 0.5s ease;
-}
-
-#renang:hover{
-  background-color: green;
-  border-radius: 50%;
-  transition: 0.5s ease;
-}
-
-#game:hover{
-  background-color: green;
-  border-radius: 50%;
-  transition: 0.5s ease;
-}
-
-#musik:hover{
-  background-color: green;
-  border-radius: 50%;
-  transition: 0.5s ease;
-}
-
-#programming:hover{
-  background-color: green;
-  border-radius: 50%;
+  border-radius: 30%;
   transition: 0.5s ease;
 }
 /*----------------------------------------------------------------------------*/
