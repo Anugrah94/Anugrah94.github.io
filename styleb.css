@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*--pengaturan body keseluruhan-----------------------------------------------*/
+  body{
+    background-image: url("img/bg4.jpg");
+  }
+  /*----------------------------------------------------------------------------*/
+  /*--pengaturan header keseluruhan---------------------------------------------*/
+  header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-family: Lato;
+    position: fixed;
+  }
+  
+  #me:link, #me:visited{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #me:hover{
+    color: grey;
+    transition: 0.5s ease;
+  }
+  
+  h2{
+    float: left;
+    line-height: 46px;
+  }
+  
+  nav ul li{
+    margin-right: 5px;
+    line-height: 46px;
+    float: right;
+    display: inline;
+  }
+  
+  #home:link, #home:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 0px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  #home:hover{
+    color: grey;
+    border-radius: 30%;
+    transition: 0.5s ease;
+  }
+  
+  #blog:link, #blog:visited {
+      color: white;
+      padding: 0px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  #blog:hover{
+    background-color: grey;
+    border-radius: 30%;
+    transition: 0.5s ease;
+  }
+  
+  #tutorial:link, #tutorial:visited {
+      color: white;
+      padding: 0px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  #tutorial:hover{
+    background-color: grey;
+    border-radius: 30%;
+    transition: 0.5s ease;
+  }
+  
+  .navigasi{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30%;
+  }
+  /*----------------------------------------------------------------------------*/
+  /*--pengaturan section keseluruhan--------------------------------------------*/
+  section{
+    margin: auto;
+    width: 100%;
+    min-height: 590px;
+    padding: 10px;
+  }
+  h1{
+    line-height: 590px;
+    text-align: center;
+    font-size: 300px;
+  }
+  
+  .data{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+  }
+
+  .blog1{
+    float: right;
+    padding: 10px 10px;
+    margin-top: 200px;
+    width: 100%;
+    min-height: 100 px;
+    border: 2px solid black;
+  }
+
+  .judul{
+      text-align: center;
+  }
+
+  .isi{
+    text-align: justify;
+  }
+  /*----------------------------------------------------------------------------*/
+  /*--pengaturan articel keseluruhan--------------------------------------------*/
+  article{
+    float: left;
+    margin: auto;
+    width: 100%;
+    min-height: 570px;
+    border: 2px solid blue;
+    background-color: grey  ;
+    opacity: 0.5;
+  }
+  /*----------------------------------------------------------------------------*/
+  /*--pengaturan footer keseluruhan----/----------------------------------------*/
+  footer{
+    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    background-color: maroon;
+    width: 100%;
+    min-height: 90px;
+    border-top: 1px solid black;
+    font-family: Karma;
+    font-size: 12px;
+  }
+  
+  #akun1{
+    float: right;
+    width: 4%;
+    min-height: 50px;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 2px;
+    margin: 20px 5px;
+  }
+  
+  #akun2{
+    float: right;
+    width: 4%;
+    min-height: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    margin: 20px 2px;
+  }
+  
+  #akun3{
+    float: right;
+    width: 4%;
+    min-height: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 1px;
+  }
+  
+  .akun:hover, .akun:link, .akun1:visited{
+    background-color: darkkhaki;
+    border-radius: 50%;
+    transition: 0.5s ease;
+  }
+  
+  .copyright{
+    padding-left: 7px;
+    line-height: 15px;
+  }
+  
+  #cp1{
+    padding-top: 30px;
+  }
+  
+  .cc{
+    float: left;
+    padding-top: 3px;
+  }
+  
+  #no{
+    padding-top: 4px;
+  }
+  
+  /* ==== RESPONSIVE DENGAN MEDIA QUERIES =====*/
+  @media screen and (max-width: 3000px){
+    /* CSS styles */
+    }
+    @media screen and (max-width: 1300px){
+    /* CSS styles */
+    }
+    @media screen and (max-width: 1024px){
+    /* CSS styles */
+    }
+    @media screen and (max-width: 992px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:880px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:768px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:600px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:480px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:320px){
+    /* CSS styles */
+    }
+    @media screen and (max-width:240px){
+    /* CSS styles */
+    }
+  /*----------------------------------------------------------------------------*/
+  

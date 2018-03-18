@@ -126,6 +126,7 @@ article{
 /*----------------------------------------------------------------------------*/
 /*--pengaturan footer keseluruhan----/----------------------------------------*/
 footer{
+  /* margin-top: 150px; */
   position: absolute;
   background-color: maroon;
   width: 100%;
